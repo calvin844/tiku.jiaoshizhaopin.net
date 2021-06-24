@@ -1,0 +1,152 @@
+
+div.list_box{ width:960px;  margin:20px 0px 20px 0px; float:left;}
+div.list_box .flow{ position: fixed; z-index:2;}
+div.list_box ul.left_box{ background:#f9f9f9; border: 1px solid #e8e8e8; border-radius: 8px 0 0; height: auto; padding-bottom: 16px; width: 158px; float:left;}
+div.list_box ul.flow{ left: 50%; margin-left: -480px; top: 0;}
+div.list_box ul.left_box li{ border-bottom:1px solid #e8e8e8;}
+div.list_box ul.left_box li.ico{ height: 65px; padding-top: 34px;}
+div.list_box ul.left_box li.ico i{ display: block; width: 45px; height: 50px; background: url(../images/sprite.png) -188px top; margin-left: 60px;}
+div.list_box ul.left_box li a{ display:block;  color: #666666; font-size: 16px; height: 70px; line-height: 70px; text-align: center;}
+div.list_box ul.left_box li a:hover{ background:#ededed; color: #101010;}
+div.list_box ul.left_box li a.cur{ background:#ededed; color: #101010;}
+div.list_box ul.left_box li.only_error{  height: 65px; text-align:center;}
+div.list_box ul.left_box li.only_error input{ -webkit-appearance:checkbox;}
+div.list_box ul.left_box li.only_error span{  height: 65px; padding-top: 34px; text-align:center;  color: #666666; font-size: 16px; height: 70px; line-height: 70px; margin-left:5px;}
+div.list_box ul.left_box li.code{ border:none; text-align:center;}
+div.list_box ul.left_box li.code p{ height:35px; line-height:35px; color:#666666; font-size:14px;}
+
+
+div.list_box div.right_box{ width: 800px; float:right; border-top: 1px solid #e8e8e8;}
+div.list_box div.right_box div.top_title{ height: 50px; background: #fff; border-bottom: #e0e0e0 1px solid; padding: 0px 25px 0px 25px;}
+div.list_box div.right_box div.top_title p{ font-size: 14px; height: 50px; line-height: 50px; color: #666; float:left; font-family: "Arial","宋体";}
+div.list_box div.right_box div.top_title span{ font-size: 14px; height: 50px; line-height: 50px; color: #666; float:right; font-family: "Arial","宋体";}
+
+div.list_box div.right_box div.item_title_box{ height:50px;}
+div.list_box div.right_box div.item_title_box ul{ background: none repeat scroll 0 0 #fff; border-bottom: 1px solid #e5e5e5; padding: 3px 10px 5px; width: 780px; float:left;}
+div.list_box div.right_box div.item_title_box ul.flow{ top: 0; left: 50%; margin-left: -320px;}
+div.list_box div.right_box div.item_title_box ul li{ float: left; height: 42px; line-height: 42px; margin-right: 20px; position: relative; width: auto;}
+div.list_box div.right_box div.item_title_box ul li a{ border-bottom: 1px solid #fff; color: #999; display: block; padding: 0 10px; font-size:14px; font-family:"Arial","宋体";}
+div.list_box div.right_box div.item_title_box ul li span{ background: url("../images/sprite.png") no-repeat scroll left -17px rgba(0, 0, 0, 0); display:none; bottom: -2px; bottom: -1px\9; height: 7px; left: 50%; margin-left: -6px; position: absolute; width: 12px;}
+div.list_box div.right_box div.item_title_box ul li.cur a{ border-bottom: 1px solid #45a635; color: #333;}
+div.list_box div.right_box div.item_title_box ul li.cur span{ display: block;}
+div.list_box div.right_box div.item_title_box ul li:hover a{ border-bottom: 1px solid #45a635; color: #333;}
+div.list_box div.right_box div.item_title_box ul li:hover span{ display: block;}
+
+div.list_box div.right_box p.item_description_box{  background: none repeat scroll 0 0 #fff; border-bottom: 1px dotted #e5e5e5; color: #666666; font-size: 12px; line-height: 20px; padding: 14px 10px 12px 20px; font-family:"Arial","宋体"; display:none;}
+div.list_box div.right_box div.question_list{ background: none; display:none;}
+div.list_box div.right_box div.question_list div.item_box{ float:left;}
+div.list_box div.right_box div.question_list div.question_box{ margin-bottom: 15px; padding: 15px 0 20px 45px; background: #fff; border-right: 1px solid #e5e5e5; float:left; width:755px;}
+div.list_box div.right_box div.question_list div.question_box div.answer{ padding-right: 20px; position: relative; padding-left: 44px; border-left: #dadada 1px solid;}
+div.list_box div.right_box div.question_list div.question_box div.answer p.circle{ display: block; font-weight: bold; font-size: 18px; color: #fff; text-align: center; line-height: 46px; top: 0px; font-family: "Arial"; left: -25px; width: 46px; height: 46px; background: #45a635; border-radius: 24px; border-color: #45a635; position:absolute;}
+div.list_box div.right_box div.question_list div.false div.question_box div.answer p.circle{ font-family: "Arial"; font-size: 18px; color: #fff; border-color: #f0555c; background: #f0555c;}
+
+div.list_box div.right_box div.question_list div.question_box div.answer p.problem{ color: #131313; font-size: 14px;  line-height: 26px; font-size:14px; font-family:"Arial","宋体"; display:inline-block; margin:0px 0px 10px 0px;}
+div.list_box div.right_box div.question_list div.question_box div.answer p.problem span.type{ color: #74a127; float: left; font-size:14px; font-family:"Arial","宋体";}
+div.list_box div.right_box div.question_list div.question_box div.answer ol li span{ color: #999; font-family: "Arial","宋体"; font-weight: normal; margin-right: 10px; font-size: 14px; line-height: 34px;}
+div.list_box div.right_box div.question_list div.question_box div.answer ol li p{ display:inline-block; font-family: "Arial","宋体"; font-size: 14px; line-height: 34px; color: #666;}
+div.list_box div.right_box div.question_list div.question_box div.answer ol li.cur p{ font-weight:bold;}
+div.list_box div.right_box div.question_list div.question_box div.answer div.options{ position: relative; border-top: #f1f1f1 1px solid; color: #45a635; border-bottom: #f1f1f1 1px solid; }
+div.list_box div.right_box div.question_list div.question_box div.answer div.options p{ color: #666; display:inline-block; line-height: 60px; font-size: 14px; word-wrap: break-word; font-family: "Arial","宋体";}
+div.list_box div.right_box div.question_list div.question_box div.answer div.options p span{ color: #45a635; line-height: 60px; font-size: 14px; word-wrap: break-word; font-family: "Arial","宋体";}
+div.list_box div.right_box div.question_list div.question_box div.answer div.options div.operation{ float:right; height:60px;}
+div.list_box div.right_box div.question_list div.question_box div.answer div.options div.operation a{ font-size:14px; font-family:"Arial","宋体"; line-height: 60px; color:#999;}
+div.list_box div.right_box div.question_list div.question_box div.answer div.options div.operation a.favor i{ background: url("../images/sprite.png"); display: inline-block; height: 20px; margin-bottom: -4px; margin-right: 8px; width: 19px;background-position: -16px top;}
+div.list_box div.right_box div.question_list div.question_box div.answer div.options div.operation a.cancel_favor i{ background: url("../images/sprite.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0); display: inline-block; height: 20px; margin-bottom: -4px; margin-right: 8px; width: 19px;background-position: -35px top;}
+div.list_box div.right_box div.question_list div.question_box div.answer div.options div.operation a.put i{ background: url("../images/sprite.png"); display: inline-block; height: 9px; margin-right: 8px; width: 11px; background-position: -130px -53px;}
+div.list_box div.right_box div.question_list div.question_box div.answer div.options div.operation a.down i{ background: url("../images/sprite.png"); display: inline-block; height: 9px; margin-right: 8px; width: 11px; background-position: -130px -61px;}
+div.list_box div.right_box div.question_list div.question_box div.answer div.options div.operation a:hover{ color:#333;}
+div.list_box div.right_box div.question_list div.question_box div.answer div.options div.operation b{ display: inline-block; height: 25px; width: 1px; background: #ccc; vertical-align: middle; margin:0px 20px 0px 20px;}
+div.list_box div.right_box div.question_list div.question_box div.resolve{ border-left: #dadada 1px solid;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.count{ position: relative; height: 80px; padding:11px 0px 0px 44px;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.count p.circle{ display: block; font-weight: bold; font-size: 14px; color: #666; text-align: center; line-height: 46px; top: 0px; left: -25px; width: 46px; height: 46px; background: #fafafa; border-radius: 24px; position:absolute; border: #d4d4d4 1px solid;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.count p{ font-size: 14px; line-height: 24px; color: #666; font-family:"Arial","宋体";}
+
+div.list_box div.right_box div.question_list div.question_box div.resolve div.explain{ position: relative; padding:10px 20px 10px 44px; background: #fafafa;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.explain p.circle{ display: block; font-weight: bold; font-size: 14px; color: #fff; text-align: center; line-height: 46px; top: -18px; left: -25px; width: 46px; height: 46px; background: #6cc; border-radius: 24px; position:absolute; border: #6cc 1px solid;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.explain p{ font-size: 14px; line-height: 24px; color: #666; font-family:"Arial","宋体";}
+
+div.list_box div.right_box div.question_list div.question_box div.resolve div.test{ position: relative; padding-left: 44px; height: 50px; line-height: 50px; margin-bottom: 10px;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.test p.circle{ display: block; font-weight: bold; font-size: 14px; color: #666; text-align: center; line-height: 46px; top: 0px; left: -25px; width: 46px; height: 46px; background: #fafafa; border-radius: 24px; position:absolute; border: #d4d4d4 1px solid; font-family:"Arial","宋体";}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.test label.keypoint-info{ text-decoration: underline; display: block; height: 46px; line-height: 47px; background: url(../images/xdd.gif) 0px 15px no-repeat; padding-left: 22px; float: left; font-family:"Arial","宋体"; font-size: 14px; color:#666;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.test div.box_bg{ width:340px; height:185px; background:#999; border-radius:5px; position:absolute; top:-185px; left:45px; display:none;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.test div.box{ width:330px; height:175px; background:#fff; margin:5px 0px 0px 5px;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.test div.box p{ color:#999; padding:0px 10px 0px 10px; line-height:20px;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.test div.box p.title{ font-size:14px; color:#333; line-height:35px;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.test div.box ul{ margin:5px 0px 0px 15px;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.test div.box ul li{ float:left; margin-right: 11px;width: 22px; height: 32px; display: inline-block; background: url(../images/sprite.png) no-repeat; background-position: -152px -470px;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.test div.box ul li.blue{ background-position: -129px -470px;}
+
+div.list_box div.right_box div.question_list div.question_box div.resolve div.note{ position: relative; padding:10px 0px 0px 44px;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.note p.circle{ display: block; font-weight: bold; font-size: 14px; color: #666; text-align: center; line-height: 46px; top: 0px; left: -25px; width: 46px; height: 46px; background: #fafafa; border-radius: 24px; position:absolute; border: #d4d4d4 1px solid; font-family:"Arial","宋体";}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.note input.note_empty{ border-radius: 2px; height: 17px; padding: 10px 5px; width: 616px; border: #cacaca 1px solid; font-size: 14px; color: #b8b7b7; background: #fcfcfc;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.note div.note_edit_box{ width: 628px; height: 278px; border: 1px solid #cacaca; border-radius: 2px; display:none;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.note textarea.note_edit{ resize: none; height: 176px; width: 588px; padding: 20px; border: none; border-bottom: 1px solid #cacaca; position: relative; background: #fcfcfc;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.note div.note_edit_box div.edit_tips{ height: 60px; color: #999; padding-left: 10px;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.note div.note_edit_box div.edit_tips p.left{ line-height: 60px; font-size: 14px; color: #999;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.note div.note_edit_box div.edit_tips p.right a{ display:inline-block; width: 98px; height: 38px; line-height: 38px; text-align: center; color: #FFF; background: #58c17a; border-radius: 2px; margin:15px 20px 0px 0px; border:#58c17a 1px solid; font-family:"Arial","宋体"; font-size: 14px;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.note div.note_edit_box div.edit_tips p.right a.cancel{ background: #ebebeb; border:#999 1px solid; color:#999;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.note p.edit_text{ height:35px; line-height:35px; font-family:"Arial","宋体"; font-size: 14px; display:none;}
+div.list_box div.right_box div.question_list div.question_box div.resolve div.note a.edit_note{ display:inline-block; width: 98px; height: 38px; line-height: 38px; text-align: center; color: #FFF; background: #58c17a; border-radius: 2px; margin:15px 20px 0px 0px; border:#58c17a 1px solid; font-family:"Arial","宋体"; font-size: 14px; display:none;}
+div.list_box div.right_box div.question_list div.next_part_box{ background:#FFF; float:left; width:100%;}
+
+div.list_box div.right_box div.question_list div.next_part_box{ background: #fff none repeat scroll 0 0; border-top: 1px solid #e5e4e5; position: relative; top: -15px; width: 100%;}
+div.list_box div.right_box div.question_list a.next_part{ background: none repeat scroll 0 0 #57c179; border-radius: 3px; color: #ffffff; display: block; font-size: 14px; height: 40px; line-height: 40px; float:right; margin:15px 20px 15px 0px;  text-align: center; width: 172px; font-size:14px; font-family:"Arial","宋体";}
+div.list_box div.right_box div.question_list a.next_part:hover{ background:#27b053;}
+
+
+
+div.list_box div.right_box div.question_list div.material_box{ background:#f1f1f1; float:left; width:800px;}
+div.list_box div.right_box div.question_list div.material_box div.title_box{ height: 54px; padding-left: 20px;}
+div.list_box div.right_box div.question_list div.material_box div.title_box p.title{ background: url("../images/sprite.png") no-repeat scroll -86px top rgba(0, 0, 0, 0); color: #fff; float: left; font-size: 12px; height: 36px; padding-top: 16px; text-align: center; width: 57px; font-family: "Arial","宋体";}
+div.list_box div.right_box div.question_list div.material_box div.title_box div.bt_box{ float:right; }
+div.list_box div.right_box div.question_list div.material_box div.title_box div.bt_box a{ display:inline-block; width:22px; height:22px; margin:20px 10px 0px 0px;}
+div.list_box div.right_box div.question_list div.material_box div.title_box div.bt_box a.show{ background:url("../images/qpcl.png"); display:none;}
+div.list_box div.right_box div.question_list div.material_box div.title_box div.bt_box a.show:hover{ background:url("../images/qpcll.png");}
+div.list_box div.right_box div.question_list div.material_box div.title_box div.bt_box a.quan{ background:url("../images/quan.png");}
+div.list_box div.right_box div.question_list div.material_box div.title_box div.bt_box a.quan:hover{ background:url("../images/quanh.png");}
+div.list_box div.right_box div.question_list div.material_box div.title_box div.bt_box a.xiao{ background:url("../images/xiao.png");}
+div.list_box div.right_box div.question_list div.material_box div.title_box div.bt_box a.xiao:hover{ background:url("../images/xiaox.png");}
+div.list_box div.right_box div.question_list div.material_box div.content_box{ padding: 5px 20px 20px 20px;}
+div.list_box div.right_box div.question_list div.material_box div.content_box div.content_overflow{ height: 243px; overflow-y: auto; overflow-X: hidden; padding: 10px; color: #333; position: relative; width: 740PX;}
+div.list_box div.right_box div.question_list div.material_box div.content_box div.content_overflow p.title{ margin-bottom: 10px; background: #58c27a; height: 28px; line-height: 28px; text-align: center; color: #FFF; padding: 0px 15px; border-radius: 14px; display:inline-block; font-weight:bold; font-size:14px; font-family:"Arial","宋体";}
+div.list_box div.right_box div.question_list div.material_box div.content_box div.content_overflow div.content{ margin-bottom: 10px; line-height: 24px; word-wrap: break-word;}
+div.list_box div.right_box div.question_list div.material_box div.content_box div.content_overflow div.content p{ font-size:14px; font-family:"Arial","宋体";}
+
+
+div.list_box div.right_box div.answers_box{ height: auto; padding-top: 15px; position: relative; float:left; overflow:hidden;}
+div.list_box div.right_box div.answers_list{ height: auto; position: fixed; float:left; bottom:0;}
+div.list_box div.right_box div.answers_list.absolute{ position: absolute; }
+div.list_box div.right_box div.answers_list div.title{ background:#fff; height: 45px; padding-left: 28px; width: 142px; cursor:pointer; border-left:1px solid #e1e1e1; border-top:1px solid #e1e1e1; border-right:1px solid #e1e1e1;}
+div.list_box div.right_box div.answers_list div.title p{ display:inline-block; font-size: 14px; height: 45px; line-height: 45px; font-size:14px; font-family:"Arial","宋体"; cursor:pointer;}
+div.list_box div.right_box div.answers_list div.title span.arrow{ background: url("../images/sprite.png"); display: inline-block; height: 12px; margin-left: 42px; width: 11px;}
+div.list_box div.right_box div.answers_list div.title span.up{ background-position: left -24px;}
+div.list_box div.right_box div.answers_list div.title span.down{ background-position: left -36px;}
+div.list_box div.right_box div.answers_list ul{ background:#fff; border-top: 1px solid #e1e1e1; padding: 18px 0 18px 20px; width: 780px; float:left; overflow:hidden; position:relative;}
+div.list_box div.right_box div.answers_list ul li{ float: left; margin-right: 10px; width: 185px;}
+div.list_box div.right_box div.answers_list ul li a{ background:#45a635; border: 1px solid #45a635; border-radius: 2px; color: #fff; display: inline-block; font-family: "Arial"; font-size: 14px; height: 30px; line-height: 30px; margin: 3px 1px 3px 0; text-align: center; width: 30px;}
+div.list_box div.right_box div.answers_list ul li a.false{ color: #feffff; border-color: #f0555c; background: #f0555c;}
+div.list_box div.right_box div.answers_list ul li a.none{ color: #333; border-color: #333; background: #fff;}
+
+
+div.time_pause_box{ height: 301px; left: 50%; margin-left:-270px; top:75px; width: 540px; z-index: 1000;  position:fixed; display:none; border: 5px solid rgba(0, 0, 0, 0.3);}
+div.time_pause_box div.bg{ height: 83px; padding-top: 218px; background: url(../images/rest.jpg); text-align: center;}
+div.time_pause_box div.bg a{ background: none repeat scroll 0 0 #58c17a; border-radius: 3px; color: #fff; display: inline-block; font-size: 14px; height: 38px; line-height: 38px; width: 138px; font-size:14px; font-family:"Arial","宋体";}
+div.time_pause_box div.bg a:hover{ opacity:0.8}
+
+div.submit_box{ z-index: 1000; width: 338px; height: 186px; margin-left: -169px; margin-top: -93px; top: 50%; left: 50%;  position:fixed; border: 5px solid rgba(0, 0, 0, 0.3); display:none;}
+div.submit_box div.bg{ font-size: 14px; height: 186px; text-align: center; background: none repeat scroll 0 0 #fff;}
+div.submit_box div.bg p{ text-align:center; color:#333;  font-size:14px; font-family:"Arial","宋体"; line-height:125px; height:125px;}
+div.submit_box div.bg a{ background:#58c17a; border-radius: 3px; color: #fff; display: inline-block; font-size: 14px; height: 36px; line-height: 38px; width: 128px; font-size:14px; font-family:"Arial","宋体"; margin:0px 5px 0px 5px;}
+div.submit_box div.bg a:hover{ opacity:0.8}
+div.submit_box div.bg a.cancel{ background:#ebebeb; color: #5a5a5a; width: 126px; border:1px solid #acacac;}
+
+
+div.big_material_box{ background:#fff; color: #999; display: none; height: 100%; overflow: hidden;  position: fixed;  width: 100%; z-index: 99; top:0;}
+div.big_material{ height: 100%; overflow: hidden; width: 80%; margin:60px auto 60px auto;}
+div.big_material_box a.close{ background: url("../images/ss.png") no-repeat scroll 0 0 / 33px 33px rgba(0, 0, 0, 0); color: #c00; cursor: pointer; display: block; height: 60px; line-height: 14px; position: fixed; right: 30px; top: 30px; width: 42px;}
+div.big_material_box a.close:hover{ background: url("../images/sss.png") no-repeat scroll 0 0 / 33px 33px rgba(0, 0, 0, 0); }
+div.big_material_box div.content_box *{ color: #333; line-height:35px; font-size:20px; font-weight:normal; word-wrap: break-word;}
+div.big_material_box div.content_box p.title{ margin-bottom: 10px; background: #58c27a; height: 28px; line-height: 28px; text-align: center; color: #FFF; padding: 0px 15px; border-radius: 14px; display:inline-block; font-weight:bold; font-family:"Arial","宋体";}
+
+div.black_bg{ background:#000; opacity:0.3; z-index:999; position:fixed; width:100%; height:100%; top:0; left:0; display:none;}
+

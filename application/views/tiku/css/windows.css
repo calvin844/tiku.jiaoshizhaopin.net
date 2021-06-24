@@ -1,0 +1,22 @@
+
+*{ margin:0; padding:0; list-style:none; text-decoration:none; font-size:12px; font-family:"微软雅黑","Arial",sans-serif; border:none; -webkit-appearance: none; border-radius: 0;}
+div.phone_bg{ width:100%; height:100%; position:fixed; top:0; left:0; background:#000; opacity:0.8; z-index:999;}
+div.phone_box{ width:540px; height:270px; position:fixed; top:50%; left:50%; z-index:1000; margin-left: -280px; margin-top: -250px; background:#fff; border:1px solid #333; border-radius:10px;}
+div.clear{ clear:both;}
+div.phone_box ul{ margin:50px 0px 0px 100px;}
+div.phone_box ul li{ margin:0px 0px 20px 0px; float:left;}
+div.phone_box input{ border:1px solid #999; height:30px; line-height:30px; color:#999; width:100px; font-size:14px; padding:5px 10px 5px 10px; margin:0px 20px 0px 0px; float:left;}
+div.phone_box ul li.phone input{ width:250px;}
+div.phone_box ul li.phone span{ color:#F00; float:left;  font-size:14px; display:none; line-height:42px;}
+div.phone_box ul li.code a{ color:#fff; background:#0099ff; width:80px; height:30px; line-height:30px; display:inline-block; float:left; text-align:center;}
+div.phone_box ul li input.sure{ color:#fff; background:#0099ff; width:100px; height:42px; line-height:42px; display:inline-block; float:left; text-align:center; margin:10px 0px 0px 100px; font-size:16px; border:none; padding:0;}
+div.phone_box a.close_it{ position:absolute; display:block; width:32px; height:32px; background:url(../images/close.png) no-repeat; top:-15px; right:-15px;}
+
+body{ width:100%; height:100%; overflow:hidden;}
+div.dialog_bg{ width:100%; height:100%; position:fixed; top:0; left:0; background:#000; opacity:0.6; z-index:999;}
+div.dialog_box{ width:340px; height:190px; position:fixed; top:50%; left:50%; background:#fff; z-index:1000; border: 5px solid rgba(0, 0, 0, 0.4); margin-left: -169px; margin-top: -93px;}
+div.dialog_box p.title{ color:#fff; background:#77b3eb; padding:0px 0px 0px 10px; font-size:16px; height:40px; line-height:40px; width:330px; overflow:hidden;}
+div.dialog_box p.content{ line-height:16px; text-align:center; margin:30px 10px 10px 10px; font-family:"宋体"; color:#333; font-size:14px; max-height:65px; overflow:hidden;}
+div.dialog_box a.go_bt{ width: 50px; background: none repeat scroll 0 0 #f60; border-radius: 5px; color: #fff; font-family: "宋体"; font-size: 14px; margin: 20px auto 20px auto; display: block; padding: 5px 20px; text-align: center;}
+div.dialog_box a.go_bt:hover{ opacity:0.8;}
+div.dialog_box a.close{ position:absolute; top:7px; right:7px; color:#e5e5e5; font-size:16px; padding:3px;}

@@ -1,0 +1,78 @@
+body{ background: #e5e5e5;}
+div.list_box{ width:960px;  margin:20px 0px 20px 0px; float:left;}
+div.list_box ul.left_box{ background:#f9f9f9; border: 1px solid #e8e8e8; border-radius: 8px 0 0; height: auto; padding-bottom: 16px; width: 158px; float:left;}
+div.list_box ul.left_box li{ border-bottom:1px solid #e8e8e8;}
+div.list_box ul.left_box li.ico{ height: 65px; padding-top: 34px;}
+div.list_box ul.left_box li.ico i{ display: block; width: 45px; height: 50px; background: url(../images/sprite.png) -143px top; margin-left: 60px;}
+div.list_box ul.left_box li a{ display:block;  color: #666666; font-size: 16px; height: 70px; line-height: 70px; text-align: center;}
+div.list_box ul.left_box li a:hover{ background:#ededed; color: #101010;}
+div.list_box ul.left_box li a.cur{ background:#ededed; color: #101010;}
+div.list_box ul.left_box li.code{ border:none; text-align:center;}
+div.list_box ul.left_box li.code p{ height:35px; line-height:35px; color:#666666; font-size:14px;}
+
+
+div.list_box div.right_box{ background:#fff; width: 800px; float:right; border-top: 1px solid #e8e8e8;}
+div.list_box div.right_box div.title_box{ height: 38px; background: #fff; border: #e0e0e0 1px solid; padding-left: 25px; border-left: none;}
+div.list_box div.right_box div.title_box p{ float:left;color: #333; font-size: 14px; height: 38px; line-height: 38px; font-family: "宋体";}
+div.list_box div.right_box div.title_box span{ float:right; font-family: "Arial"; font-size: 12px; color: #666666; height: 38px; line-height: 38px; margin:0px 10px 0px 0px;}
+div.list_box div.right_box div.content_box div.summary_1{ width:800px; float:left; border-bottom:1px solid #e0e0e0;}
+div.list_box div.right_box div.content_box div.summary_1 p.no_vip{ margin: 20px 0px 20px 0px; font-weight: bold; width: 100%; text-align: center;}
+div.list_box div.right_box div.content_box div.summary_1 p.no_vip a{ color: #f0555c;}
+div.list_box div.right_box div.content_box div.summary_1 div.left{ margin:0px 70px 0px 50px;}
+div.list_box div.right_box div.content_box div.summary_1 div.left p{ color: #333333; font-size: 16px; font-weight: bold; font-family: "宋体"; margin:30px 0px 30px 0px;}
+div.list_box div.right_box div.content_box div.summary_1 div.left p.score{  border: 6px solid #77b3eb; border-radius: 96px; color: #333333; font-family: "微软雅黑"; font-size: 20px; font-weight: normal; height: 170px; line-height: 170px; margin-top: 25px; text-align: center; width: 170px;}
+div.list_box div.right_box div.content_box div.summary_1 div.left p.score span.big{  font-family: "Arial"; font-size: 56px; margin-right: 12px;}
+div.list_box div.right_box div.content_box div.summary_1 div.left p.tip { font-weight:normal;}
+div.list_box div.right_box div.content_box div.summary_1 div.left p.tip span{ float:left; color: #333333; font-size: 16px; font-family: "宋体";}
+div.list_box div.right_box div.content_box div.summary_1 div.left p.tip i{ border-radius: 3px; display: inline-block; height: 15px; width: 15px; border: 1px solid #c2c2c2; float:left; margin:2px 5px 0px 5px;}
+div.list_box div.right_box div.content_box div.summary_1 div.left p.tip i.true{ background: none repeat scroll 0 0 #45a635; border-color: #45a635;}
+div.list_box div.right_box div.content_box div.summary_1 div.left p.tip i.false{ background: none repeat scroll 0 0 #f0555c; border-color: #f0555c;}
+div.list_box div.right_box div.content_box div.summary_1 div.left p.tip i.none{ background: none repeat scroll 0 0 #fff; border-color: #666;}
+div.list_box div.right_box div.content_box div.summary_1 ul.answer_list{ float:left; margin:120px 0px 0px 0px; width: 470px;}
+div.list_box div.right_box div.content_box div.summary_1 ul.answer_list li{ float:left; margin:0px 8px 20px 0px;}
+div.list_box div.right_box div.content_box div.summary_1 ul.answer_list li a{ background:#fff; border: 1px solid #c2c2c2; border-radius: 3px; color: #4f565b; display: inline-block; font-family: "Arial"; font-size: 14px;  height: 30px; line-height: 30px; margin-right: 10px; text-align: center; width: 30px;}
+div.list_box div.right_box div.content_box div.summary_1 ul.answer_list li a.false{ background: none repeat scroll 0 0 #f0555c; border-color: #f0555c; color: #fff;}
+div.list_box div.right_box div.content_box div.summary_1 ul.answer_list li a.true{  background: none repeat scroll 0 0 #45a635; border-color: #45a635; color: #fff;}
+div.list_box div.right_box div.content_box div.summary_1 ul.answer_list li a.none{ border-color: #666; color: #666;}
+div.list_box div.right_box div.content_box div.summary_1 ul.report_list{ float:left; margin:25px 25px 25px 25px; width: 750px;}
+div.list_box div.right_box div.content_box div.summary_1 ul.report_list li{ border-bottom:1px dotted #c2c2c2;}
+div.list_box div.right_box div.content_box div.summary_1 ul.report_list li p{ display:inline-block; font-family: "宋体"; font-size:16px; height:45px; line-height:45px;}
+div.list_box div.right_box div.content_box div.summary_1 ul.report_list li span{ display:inline-block; font-weight:bold; float:right; font-family: "宋体"; color:#00aaee; font-family: "Arial"; font-size:16px; height:45px; line-height:45px;}
+
+
+div.list_box div.right_box div.content_box div.summary_2{ width:800px; float:left; border-bottom:1px solid #e0e0e0; display:none;}
+div.list_box div.right_box div.content_box div.summary_2 div.left{ margin:0px 90px 0px 50px;}
+div.list_box div.right_box div.content_box div.summary_2 div.left p{ color: #333333; font-size: 16px; font-weight: bold; font-family: "宋体"; margin:30px 0px 30px 0px;}
+div.list_box div.right_box div.content_box div.summary_2 div.left p.score{  border: 6px solid #77b3eb; border-radius: 96px; color: #333333; font-family: "微软雅黑"; font-size: 20px; font-weight: normal; height: 170px; line-height: 170px; margin-top: 25px; text-align: center; width: 170px;}
+div.list_box div.right_box div.content_box div.summary_2 div.left p.score span.big{  font-family: "Arial"; font-size: 56px; margin-right: 12px;}
+div.list_box div.right_box div.content_box div.summary_2 ul{ float:left; margin:50px 0px 0px 0px; width: 450px;}
+div.list_box div.right_box div.content_box div.summary_2 ul li{ border-bottom:1px dotted #c2c2c2;}
+div.list_box div.right_box div.content_box div.summary_2 ul li p{ display:inline-block; font-family: "宋体"; font-size:16px; height:45px; line-height:45px;}
+div.list_box div.right_box div.content_box div.summary_2 ul li span{ display:inline-block; font-weight:bold; float:right; font-family: "宋体"; color:#689d0c; font-family: "Arial"; font-size:16px; height:45px; line-height:45px;}
+
+div.list_box div.right_box div.content_box div.point_box { float:left; width:100%;}
+div.list_box div.right_box div.content_box div.point_box p.title{ font-family: "宋体"; font-weight: bold; height: 28px; line-height: 28px; border-left: 4px solid #77b3eb; font-size: 14px; margin:15px 0px 15px 20px; padding:0px 0px 0px 10px;}
+div.list_box div.right_box div.content_box div.point_box table{ color: #333; font-size: 14px; text-align: left; margin:0px 20px 20px 20px;}
+div.list_box div.right_box div.content_box div.point_box table tr{ font-size: 14px;}
+div.list_box div.right_box div.content_box div.point_box table th{ background: none repeat scroll 0 0 #f8f8f8; height: 48px; padding-left: 25px; font-size: 14px; font-family: "宋体";}
+div.list_box div.right_box div.content_box div.point_box table th.name{ width: 275px;}
+div.list_box div.right_box div.content_box div.point_box table th.count{ width: 210px;}
+div.list_box div.right_box div.content_box div.point_box table th.per{ width: 50px;}
+div.list_box div.right_box div.content_box div.point_box table th.capacity{ width: 120px;}
+div.list_box div.right_box div.content_box div.point_box table tr td{ background: none repeat scroll 0 0 #fff; font-family: "Arial"; height: 46px; padding-left: 25px; font-size: 14px;}
+div.list_box div.right_box div.content_box div.point_box table tr.level2 { display:none;}
+div.list_box div.right_box div.content_box div.point_box table tr.level3 { display:none;}
+div.list_box div.right_box div.content_box div.point_box table tr.level2 td.name{ padding-left: 50px;}
+div.list_box div.right_box div.content_box div.point_box table tr.level3 td.name{ padding-left: 80px;}
+div.list_box div.right_box div.content_box div.point_box table tr td span{ font-size: 14px;}
+div.list_box div.right_box div.content_box div.point_box table tr td span.sprite-expand { background: url("../images/sprite.png") repeat scroll 0 0 rgba(0, 0, 0, 0);  display: inline-block; height: 18px; margin-bottom: -4px; margin-right: 6px;  width: 18px;}
+div.list_box div.right_box div.content_box div.point_box table tr td span.open {  background-position: left -48px;}
+div.list_box div.right_box div.content_box div.point_box table tr td span.close {  background-position: left -66px;}
+div.list_box div.right_box div.content_box div.point_box table tr td span.slide-progress-left { background: none repeat scroll 0 0 #e1e1e1; border-radius: 3px; display: inline-block; height: 6px; margin-right: 6px; position: relative; width: 100px;}
+div.list_box div.right_box div.content_box div.point_box table tr td span.slide-progress-right { display: inline-block; width: 100px;}
+div.list_box div.right_box div.content_box div.point_box table tr td span.yellow-star, span.grey-star { background: url("../images/sprite.png") repeat scroll 0 0 rgba(0, 0, 0, 0); display: inline-block; height: 14px; width: 14px;}
+div.list_box div.right_box div.content_box div.point_box table tr td span.grey-star { background-position: -18px -43px; margin-right: 6px;}
+div.list_box div.right_box div.content_box div.point_box table tr td span.yellow-star { background-position: -32px -43px; margin-right: 6px;}
+
+
+

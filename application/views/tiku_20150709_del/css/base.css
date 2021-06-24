@@ -1,0 +1,46 @@
+*{ margin:0; padding:0; list-style:none; text-decoration:none; font-size:12px; font-family:"微软雅黑","Arial",sans-serif; border:none; -webkit-appearance: none; border-radius: 0;}
+
+.clear{ clear:both;}
+.left{ float:left;}
+.right{ float:right;}
+.nopadding{ padding:0 !important;}
+.nomargin{ margin:0 !important;}
+.noborder{ border:none !important;}
+.main_box{ width:960px; margin:0 auto;}
+
+body{background: #e1e1e1;}
+div.header div.nav_box{ width: 100%; min-width: 960px; background:#fff; height:60px; border-top:5px solid #226cd6;}
+div.header div.nav_box div.left a.logo{ float:left; margin:8px 0px 0px 0px; display: inline-block; height:52px;}
+div.header div.nav_box div.left a.site_name{ float:left; display: inline-block; height:60px; line-height:60px; margin:0px 20px 0px 20px; font-size:20px; color:#000;}
+div.header div.nav_box div.left span.house_name{ float:left; display: inline-block; height:60px; line-height:65px; color: #5e5e5e; font-family: "宋体"; font-size: 14px;}
+div.header div.nav_box ul.right{ height:60px; overflow:hidden; margin:0px 10px 0px 20px;}
+div.header div.nav_box ul.right li{ height:60px; width:105px; overflow:hidden; float:left;}
+div.header div.nav_box ul.right li a{ display:inline-block; height:60px; line-height:60px; width:103px; color:#666; font-size:16px; text-align:center;}
+div.header div.nav_box ul.right li a.cur{ border-bottom: 3px solid #fab15c; height:57px; color:#333;}
+div.header div.nav_box ul.right li a:hover{ color:#333;}
+div.header div.nav_box div.user_box{ background: #226cd6; display: inline-block; float: right; height: 33px; padding: 0 8px; position: relative; width: 94px;}
+div.header div.nav_box div.user_box p{ height:33px; line-height:33px; text-align:center; color:#fff; font-size:14px; width:94px; overflow:hidden;}
+div.header div.nav_box div.user_box p a{ color:#fff; font-size:14px; padding:0 6px; height:33px; line-height:33px;}
+div.header div.nav_box div.user_box p a.login{ border-right:1px #fff solid; padding:0 8px;}
+div.header div.nav_box div.user_box ul.user_menu{ position:absolute; top:33px; left:0; width:110px;  background: #226cd6; z-index:1; display:none;}
+div.header div.nav_box div.user_box ul.user_menu li{ width:110px;  background: #226cd6; height:30px;}
+div.header div.nav_box div.user_box ul.user_menu li a{ display:block; width:110px; background: #226cd6; height:30px; color:#fff; line-height:30px; text-align:center; font-size:14px;}
+div.header div.nav_box div.user_box ul.user_menu li a:hover{ background:#5692e8;}
+div.header div.house_bg{ width:100%; min-width:960px; height:30px; background:#c5c5c5; background: #e9e9e9 none repeat scroll 0 0;  border-bottom: 1px solid #d5d5d5; border-top: 1px solid #d5d5d5;}
+div.header div.house_box{ position:relative; width:960px; margin:0 auto; overflow:hidden; height:30px;}
+div.header div.house_box ul{ position:absolute; left:-1px;}
+div.header div.house_box ul li{ float:left; border-left:#888 1px solid; padding:0 20px; height:20px; margin:5px 0px 0px 0px; }
+div.header div.house_box ul li a{ color:#888; line-height:20px;}
+div.header div.house_box ul li a:hover{ color:#333;}
+div.header div.house_box ul li a.cur{ color:#333;}
+
+
+div.main a.back-to-top{ background:#f9f9f9; border-radius: 0 2px 0 0; bottom: 300px; height: 40px; left: 50%; margin-left: 480px; position: fixed; width: 40px; display:none;}
+div.main a.back-to-top span{ background: url("../images/sprite.png") no-repeat scroll -12px -20px rgba(0, 0, 0, 0); display: block; height: 23px; margin-left: 10px;  margin-top: 9px; width: 20px;}
+
+
+
+div.footer { background: #fff none repeat scroll 0 0; border-top: 1px solid #ddd; height: 190px; margin: 35px 0 0; padding: 35px 0 0;}
+div.footer p { color: #333; font-size: 14px; margin-bottom: 20px; text-align: center;}
+div.footer p a { color: #034b99; font-size: 14px; text-align: center;}
+div.footer p.nav a { margin:0px 25px 0px 25px;}
